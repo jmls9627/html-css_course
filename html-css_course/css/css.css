@@ -117,3 +117,57 @@ footer h4{
     font-size: 28px;
 
 }
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar a{
+color: white;
+
+}
+
+.navbar a:hover{
+    color: rgb(210 , 210, 210);
+}
+
+.post a{
+    color: rgb(70, 70,70 );
+}
+
+.post a:active{
+  color:orange  
+
+}
+
+.post table{
+    margin: 0 auto;
+    text-align: center;
+}
+
+#post-uno table{
+padding: 10px;
+}
+
+#post-uno table td, #post-uno table th{
+    padding: 2px 20px;
+    }
+
+    #post-uno table th{
+        border-bottom: 2px solid black;
+    }
+
+    #post-uno table tr:hover{
+        background-color:#ededed ;
+    }
+
+
+    #post-dos table {
+        margin-top: 20px ;
+    }
+
+    footer form fieldset{
+       border: none; 
+       padding: 10px 10px 20px;
+    }
