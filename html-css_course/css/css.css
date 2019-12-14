@@ -107,7 +107,7 @@ footer{
     background-color: #22272d;
 
     color: white;
-    font-family: Georgia,sans-serif; ;
+    font-family: Georgia,sans-serif; 
 }
 
 footer h4{
@@ -170,4 +170,45 @@ padding: 10px;
     footer form fieldset{
        border: none; 
        padding: 10px 10px 20px;
+    }
+
+
+    footer form{
+       text-align: center; 
+    }
+
+    footer form label{
+        padding: 0px 30px ;
+    }
+
+    footer form input[type=text], footer form input[type=email]{
+        background-color: rgba(0, 0, 0, 0);
+        border:none;
+        border-bottom: solid 1px white;
+        color:white;
+        font-family: Georgia,sans-serif;
+        font-size: 22px;
+        width: 300px;
+        margin-left: 5px;  
+    }
+
+    footer form input:focus{
+        outline: none;
+    }
+
+    footer form .submitbuttom {
+        margin-top: 20px ;
+        border: solid 1px white;
+        border-radius: 18px ;
+        color: white;
+        font-size: 10px;
+        padding: 5px 20px;
+        background-color: #707070;
+        text-decoration: none;
+        margin-bottom: 10px;
+    }
+
+    footer form .submitbuttom:hover{
+        background-color: #7d7d7d;
+
     }
